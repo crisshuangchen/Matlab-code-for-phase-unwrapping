@@ -3,7 +3,7 @@
 % clc;
 
 
-%% MM in RGB channels
+%% Mueller matrices in RGB channels, the data comes from real measurements of HWP.
 M_R = [1.0000   -0.0132   -0.0019    0.0010
        0.0263   -0.8244   -0.2969   -0.4610
        0.0054   -0.3046    0.9509   -0.0851
@@ -151,6 +151,7 @@ else
 end
 
 end
+
 
 
 
